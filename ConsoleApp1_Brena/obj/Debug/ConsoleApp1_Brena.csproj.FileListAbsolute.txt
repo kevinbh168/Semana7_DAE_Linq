@@ -1,0 +1,7 @@
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\bin\Debug\ConsoleApp1_Brena.exe.config
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\bin\Debug\ConsoleApp1_Brena.exe
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\bin\Debug\ConsoleApp1_Brena.pdb
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\obj\Debug\ConsoleApp1_Brena.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\obj\Debug\ConsoleApp1_Brena.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\obj\Debug\ConsoleApp1_Brena.exe
+C:\Users\kevin\source\repos\ConsoleApp1_Brena\ConsoleApp1_Brena\obj\Debug\ConsoleApp1_Brena.pdb
