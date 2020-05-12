@@ -83,6 +83,14 @@ namespace ConsoleApp1_Brena
 				return this.GetTable<Pedidos>();
 			}
 		}
+		
+		public System.Data.Linq.Table<detallesdepedidos> detallesdepedidos
+		{
+			get
+			{
+				return this.GetTable<detallesdepedidos>();
+			}
+		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.clientes")]
@@ -826,6 +834,105 @@ namespace ConsoleApp1_Brena
 			if ((this.PropertyChanged != null))
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.detallesdepedidos")]
+	public partial class detallesdepedidos
+	{
+		
+		private System.Nullable<int> _idpedido;
+		
+		private System.Nullable<int> _idproducto;
+		
+		private decimal _preciounidad;
+		
+		private int _cantidad;
+		
+		private decimal _descuento;
+		
+		public detallesdepedidos()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_idpedido", DbType="Int")]
+		public System.Nullable<int> idpedido
+		{
+			get
+			{
+				return this._idpedido;
+			}
+			set
+			{
+				if ((this._idpedido != value))
+				{
+					this._idpedido = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_idproducto", DbType="Int")]
+		public System.Nullable<int> idproducto
+		{
+			get
+			{
+				return this._idproducto;
+			}
+			set
+			{
+				if ((this._idproducto != value))
+				{
+					this._idproducto = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_preciounidad", DbType="Decimal(18,0) NOT NULL")]
+		public decimal preciounidad
+		{
+			get
+			{
+				return this._preciounidad;
+			}
+			set
+			{
+				if ((this._preciounidad != value))
+				{
+					this._preciounidad = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cantidad", DbType="Int NOT NULL")]
+		public int cantidad
+		{
+			get
+			{
+				return this._cantidad;
+			}
+			set
+			{
+				if ((this._cantidad != value))
+				{
+					this._cantidad = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_descuento", DbType="Decimal(18,0) NOT NULL")]
+		public decimal descuento
+		{
+			get
+			{
+				return this._descuento;
+			}
+			set
+			{
+				if ((this._descuento != value))
+				{
+					this._descuento = value;
+				}
 			}
 		}
 	}
